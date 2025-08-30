@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25.0)
 
-project(TreelandProtocols VERSION 0.0.1)
+project(TreelandProtocols VERSION 0.5.0)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -20,6 +20,7 @@ set(XML
   xml/treeland-foreign-toplevel-manager-v1.xml
   xml/treeland-shortcut-manager-v1.xml
   xml/treeland-window-management-v1.xml
+  xml/treeland-ddm-v1.xml
 )
 
 install(FILES ${XML} DESTINATION ${CMAKE_INSTALL_DATADIR}/treeland-protocols)
