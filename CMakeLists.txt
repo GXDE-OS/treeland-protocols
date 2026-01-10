@@ -19,8 +19,12 @@ set(XML
   xml/treeland-wallpaper-color-v1.xml
   xml/treeland-foreign-toplevel-manager-v1.xml
   xml/treeland-shortcut-manager-v1.xml
+  xml/treeland-shortcut-manager-v2.xml
   xml/treeland-window-management-v1.xml
   xml/treeland-ddm-v1.xml
+  xml/treeland-screensaver-v1.xml
+  xml/treeland-prelaunch-splash-v1.xml
+  xml/treeland-app-id-resolver-v1.xml
 )
 
 install(FILES ${XML} DESTINATION ${CMAKE_INSTALL_DATADIR}/treeland-protocols)
