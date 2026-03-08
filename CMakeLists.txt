@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25.0)
 
-project(TreelandProtocols VERSION 0.5.3)
+project(TreelandProtocols VERSION 0.5.5)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -24,6 +24,7 @@ set(XML
   xml/treeland-ddm-v1.xml
   xml/treeland-screensaver-v1.xml
   xml/treeland-prelaunch-splash-v1.xml
+  xml/treeland-prelaunch-splash-v2.xml
   xml/treeland-app-id-resolver-v1.xml
   xml/treeland-wallpaper-manager-unstable-v1.xml
   xml/treeland-wallpaper-shell-unstable-v1.xml
